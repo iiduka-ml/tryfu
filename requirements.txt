@@ -1,0 +1,11 @@
+streamlit
+mitosheet
+pandas
+openai
+langchain
+duckduckgo-search
+typing
+streamlit_antd_components
+numexpr
+st-img-pastebutton
+langchain_openai
