@@ -3,7 +3,7 @@ import streamlit as st
 import streamlit_antd_components as sac
 import os
 
-# def chat():
+def chat():
     st.title("ChatGPT by Streamlit")
     st.write("**it is a simple chatbot made only with OpenAI and Streamlit. You can set system prompts, model, and temperature as options.**")
     client = OpenAI(api_key="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")
@@ -72,5 +72,5 @@ import os
             st.session_state.Clear = False 
             st.rerun()
 
-# if __name__ == "__main__":
-#     chat()
+if __name__ == "__main__":
+    chat()
