@@ -73,9 +73,10 @@ def chat():
             st.rerun()
 
 if __name__ == "__main__":
+    '''
     if not hasattr(st.session_state, "openai_api_key"):
         try:
-            st.session_state.openai_api_key = os.environ["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"]
+            st.session_state.openai_api_key = os.environ["OPENAI_API_KEY"]
         except:
             st.session_state.openai_api_key = ""
     with st.sidebar:
@@ -83,4 +84,5 @@ if __name__ == "__main__":
         if not openai_api_key == "":
             st.session_state.openai_api_key = openai_api_key
         st.write("if you are running the app locally,  \nthere is no need to enter the key  \nif it is already set as an environment variable.")
+    '''
     chat()
