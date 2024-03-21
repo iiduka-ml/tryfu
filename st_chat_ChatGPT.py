@@ -75,7 +75,7 @@ def chat():
 if __name__ == "__main__":
     if not hasattr(st.session_state, "openai_api_key"):
         try:
-            st.session_state.openai_api_key = os.environ["OPENAI_API_KEY"]
+            st.session_state.openai_api_key = os.environ["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"]
         except:
             st.session_state.openai_api_key = ""
     with st.sidebar:
